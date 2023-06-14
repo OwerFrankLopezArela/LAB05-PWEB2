@@ -1,0 +1,153 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #004197e3;
+}
+.logo {
+  flex: 0 0 auto; 
+}
+
+.title {
+  flex: 1; 
+  text-align: center;
+  color:white;
+}
+
+.add-button {
+  background-color: #71b2eb;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-left: auto; 
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+.header__h1 {
+  margin: 1rem 0 0 1rem;
+}
+
+.header__a {
+  display: block;
+  background-color: hsl(0 0% 100%);
+  width: 5rem;
+  height: 2rem;
+  text-decoration: none;
+  position: absolute;
+  right: 1rem;
+  top: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  transition: background-color 100ms, color 100ms;
+}
+
+.header__a:hover {
+  color: hsl(0 0% 100%);
+  background-color: hsl(25 100% 45%);
+}
+
+.main {
+  background-color: hsl(0 0% 90%);
+  height: 100%;
+  flex-grow: 1;
+}
+
+.article-list {
+  list-style: none;
+  padding: 0;
+  margin: 80px;
+}
+
+.article-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.article__h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.article__a {
+  color: #004197e3;
+  text-decoration: none;
+}
+
+.article__aa {
+  color: #7f7e7e;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.article__p {
+  margin-top: 10px;
+}
+
+/*ahhhhhhh*/
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+
+.my-form {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #555;
+}
+
+input[type="text"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.my-button {
+  background-color: #428bca;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.my-button:hover {
+  background-color: #3278b3;
+}
